@@ -69,7 +69,7 @@ export const Header = () => {
 						</div>
 						<ul className="desktop-menu items-center gap-[20px] font-medium">
 							{OUR_PAGES.map((page) => (
-								<Link key={page.id} href={page.link}>
+								<Link key={page.id} href={page.link} className="hover:text-(--color-my-pink) duration-300">
 									{page.page}
 								</Link>
 							))}
