@@ -15,7 +15,8 @@ export const PEDICURE = [
 export const OUR_PAGES = [
 	{ id: 1, page: 'Home', link: '/' },
 	{ id: 2, page: 'Services', link: '/services' },
-	{ id: 3, page: 'Products', link: '/products-list' }
+	{ id: 3, page: 'Products', link: '/products-list' },
+	{ id: 4, page: 'Course', link: '/course' }
 ];
 
 export const HOME_SLIDER_SEVEN = [
@@ -220,6 +221,128 @@ export const STAFF = [
 	}
 ];
 
+export const ONLINE_COURSE = [
+	{
+		title: 'Personal Training',
+		description: 'Online Training Course',
+		cost: '1500',
+		color: '#29B3B9',
+		link: '/personal-training-online',
+		listCourse: [
+			'Get online training one by one',
+			'Total 6 sessions',
+			'Earn a certificate training',
+			'Ongoing email support!',
+			'Phone support!',
+			'24/7 access - learn at your pace!',
+			'Supplies and Sourcing Resources',
+			'No prerequisites - just bring enthusiasm',
+			'Free textbooks and materials about Headspa',
+			'Marketing Guide (FB, Ins, Google Business Profile)'
+		]
+	},
+	{
+		title: 'Group Training',
+		description: 'Online Training Course',
+		cost: '1000',
+		color: '#FF4856',
+		link: '/group-training-online',
+		listCourse: [
+			'Get online training with a group of students (Minimum 3 and Maximum 4 students)',
+			'Total 6 sessions',
+			'Earn a certificate training',
+			'Ongoing email support!',
+			'Phone support!',
+			'24/7 access - learn at your pace!',
+			'Supplies and Sourcing Resources',
+			'No prerequisites - just bring enthusiasm',
+			'Free textbooks and materials about Headspa',
+			'Marketing Guide (FB, Ins, Google Business Profile)'
+		]
+	}
+];
+
+export const LIVE_TRAINING_COURSE = [
+	{
+		title: 'Personal Training',
+		description: 'Trainees fly to the trainer’s location',
+		cost: '2500',
+		color: '#FF9761',
+		link: '/personal-training-trainer-location',
+		listCourse: [
+			'Training one by one',
+			'Total 3 lessons',
+			'Earn a certificate training',
+			'Ongoing email support!',
+			'Phone support!',
+			'24/7 access - learn at your pace!',
+			'Supplies and Sourcing Resources',
+			'No prerequisites - just bring enthusiasm',
+			'Free textbooks and materials about Headspa',
+			'Marketing Guide (FB, Ins, Google Business Profile)'
+		]
+	},
+	{
+		title: 'Group Training',
+		description: 'Trainees fly to the trainer’s location',
+		cost: '2000',
+		color: '#FF4856',
+		link: '/group-training-trainer-location',
+		listCourse: [
+			'Get online training with a group of students (Minimum 3 and Maximum 4 students)',
+			'Total 3 lessons',
+			'Earn a certificate training',
+			'Ongoing email support!',
+			'Phone support!',
+			'24/7 access - learn at your pace!',
+			'Supplies and Sourcing Resources',
+			'No prerequisites - just bring enthusiasm',
+			'Free textbooks and materials about Headspa',
+			'Marketing Guide (FB, Ins, Google Business Profile)'
+		]
+	},
+	{
+		title: 'Personal Training',
+		description: "The trainer flies to the trainee's location.",
+		cost: '2500',
+		color: '#66B1E2',
+		colorDesc: '#FF4856',
+		link: '/personal-training-trainer-location',
+		listCourse: [
+			'Training one by one',
+			'Total 3 lessons',
+			'Earn a certificate training',
+			'Ongoing email support!',
+			'Phone support!',
+			'24/7 access - learn at your pace!',
+			'Supplies and Sourcing Resources',
+			'No prerequisites - just bring enthusiasm',
+			'Free textbooks and materials about Headspa',
+			'Marketing Guide (FB, Ins, Google Business Profile)'
+		]
+	},
+	{
+		title: 'Group Training',
+		description: "The trainer flies to the trainee's location.",
+		cost: '2000',
+		color: '#29B3B9',
+		colorDesc: '#FF4856',
+		link: '/group-training-trainer-location',
+		listCourse: [
+			'Get online training with a group of students (Minimum 3 and Maximum 8 students)',
+			'Total 3 lessons',
+			'Earn a certificate training',
+			'Ongoing email support!',
+			'Phone support!',
+			'24/7 access - learn at your pace!',
+			'Supplies and Sourcing Resources',
+			'No prerequisites - just bring enthusiasm',
+			'Free textbooks and materials about Headspa',
+			'Marketing Guide (FB, Ins, Google Business Profile)'
+		]
+	}
+];
+
 export const POLICIES = ['Shipping & Returns', 'Salon Policies', 'Privacy Policy', 'Terms & Conditions'];
 
 export const AI_SUPPORT_LINE = [
@@ -305,9 +428,9 @@ export const PRODUCTS_LIST = [
 	},
 	{
 		id: 8,
-		slug: 'nail-polish-547',
-		name: 'Nail Polish 547',
-		src: '/images/products/nail-547.png',
+		slug: 'nail-polish-768',
+		name: 'Nail Polish 768',
+		src: '/images/products/nail-768.png',
 		price: '$15.99',
 		description:
 			'A bold, high-quality nail polish offering vibrant color and a flawless finish. Perfect for any occasion.'
