@@ -1,7 +1,7 @@
 'use client';
 
 import { Sheet, SheetClose, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
-import { OUR_PAGES } from '@/ultis/constants';
+import { OUR_PAGES } from '@/utils/constants';
 import { MenuIcon } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';

@@ -1,4 +1,4 @@
-import { HOME_FOUR_IMAGES, HOME_FOUR_IMAGES_TEN } from '@/ultis/constants';
+import { HOME_FOUR_IMAGES, HOME_FOUR_IMAGES_TEN } from '@/utils/constants';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -70,8 +70,7 @@ export const SectionTen = () => {
 			<div className="flex flex-col items-center gap-6 mt-12">
 				<h3 className="text-center">
 					“You won’t find a better nails salon
-					<br className="hidden lg:block" />
-					{' '}in Los Angeles.”
+					<br className="hidden lg:block" /> in Los Angeles.”
 				</h3>
 				<p className="text-(--color-my-pink)">4.8 rating based on 1000+ reviews</p>
 				<button className="uppercase border border-(--color-my-green) text-(--color-my-green) hover:bg-(--color-my-green) hover:text-white duration-300 px-[30px]">

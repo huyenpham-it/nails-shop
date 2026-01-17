@@ -28,8 +28,8 @@ export const ScrollToTopButton = () => {
 	};
 
 	return (
-		<div className={`gototop ${isVisible ? 'opacity-100' : 'opacity-0'}`} onClick={scrollToTop}>
+		<button className={`gototop ${isVisible ? 'opacity-100' : 'opacity-0'}`} onClick={scrollToTop}>
 			<MoveUp />
-		</div>
+		</button>
 	);
 };

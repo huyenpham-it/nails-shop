@@ -1,9 +1,10 @@
 'use client';
 
+import { OUR_PAGES } from '@/utils/constants';
+import { ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Menu } from '..';
-import { ShoppingCart } from 'lucide-react';
 
 export const Header = () => {
 	return (
@@ -67,21 +68,11 @@ export const Header = () => {
 							</Link>
 						</div>
 						<ul className="desktop-menu items-center gap-[20px] font-medium">
-							<Link href="/">
-								<li className="menu-1 relative flex items-center gap-2 cursor-pointer">
-									<span className="font-semibold">Home</span>
-								</li>
-							</Link>
-							<Link href="/services">
-								<li className="menu-2 relative flex items-center gap-2 cursor-pointer">
-									<span className="font-semibold">Services</span>
-								</li>
-							</Link>
-							<Link href="/products-list">
-								<li className="cursor-pointer">
-									<span className="font-semibold">Products</span>
-								</li>
-							</Link>
+							{OUR_PAGES.map((page) => (
+								<Link key={page.id} href={page.link}>
+									{page.page}
+								</Link>
+							))}
 						</ul>
 					</div>
 					<ShoppingCart />

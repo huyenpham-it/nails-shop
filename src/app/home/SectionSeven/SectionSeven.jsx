@@ -1,13 +1,13 @@
 'use client';
 
-import { HOME_SLIDER_SEVEN } from '@/ultis/constants';
+import { HOME_SLIDER_SEVEN } from '@/utils/constants';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 export const SectionSeven = () => {
 	return (
 		<div className="section-seven">
-			<div className="w-full bg-(--color-my-pink) text-white text-center px-[15px] md:px-[40px] pt-[60px] pb-[10px] md:py-[80px]">
+			<div className="w-full bg-(--color-my-pink) text-white text-center pt-[60px] pb-[10px] md:py-[80px]">
 				<h2>Client feedbacks</h2>
 				<p className="font-medium mb-[40px] md:mb-[80px]">Discover what our satisfied clients have to say</p>
 				<Swiper

@@ -2,7 +2,7 @@
 
 import { MyCard } from '@/components/MyCard/MyCard';
 import { Switch } from '@/components/ui/switch';
-import { SERVICES, STAFF } from '@/ultis/constants';
+import { SERVICES, STAFF } from '@/utils/constants';
 import Image from 'next/image';
 import { useState } from 'react';
 

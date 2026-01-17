@@ -1,7 +1,7 @@
 'use client';
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { HOME_SLIDER_EIGHT } from '@/ultis/constants';
+import { HOME_SLIDER_EIGHT } from '@/utils/constants';
 
 export const SectionEight = () => {
 	return (

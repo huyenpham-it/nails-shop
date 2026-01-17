@@ -1,4 +1,4 @@
-import { AI_SUPPORT_LINE, CONTACTS, POLICIES } from '@/ultis/constants';
+import { AI_SUPPORT_LINE, CONTACTS, POLICIES } from '@/utils/constants';
 import { Mail, MapPin, Smartphone } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';

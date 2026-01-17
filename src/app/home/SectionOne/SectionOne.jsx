@@ -6,7 +6,7 @@ export const SectionOne = () => {
 	return (
 		<div className="section-one flex justify-center">
 			<div className="w-full relative h-[600px] md:h-auto lg:aspect-2/1">
-				<Image src="/images/home/section-one.webp" width={2000} height={1000} alt="" />
+				<Image src="/images/home/section-one.webp" loading='eager' width={2000} height={1000} alt="" />
 				<div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-[0.5]"></div>
 			</div>
 			<div className="w-full page-wrapper absolute bottom-1/2 translate-y-1/2 lg:bottom-[70px] lg:translate-y-0 flex flex-col lg:flex-row items-center justify-between gap-[20px] px-[15px] md:px-[50px]">

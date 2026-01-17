@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 export const LazyShow = ({ children, delayIndex = 0, delayStep = 0.2, direction = 'vertical' }) => {
 	const ref = useRef(null);
 	const [isVisible, setIsVisible] = useState(false);
-console.log('LazyShow loaded');
+
 	useEffect(() => {
 		const observer = new IntersectionObserver(
 			([entry]) => {

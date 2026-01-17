@@ -7,11 +7,15 @@
 	--content-font: 'Figtree', sans-serif;
 	--headline-font: 'Playfair Display', sans-serif;
 	--allison-font: 'Allison', sans-serif;
+	--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
 	--color-my-black: #40372c;
 	--color-my-white: #ffffff;
 	--color-my-gray: #949494c2;
 	--color-my-light-gray: #afacac;
 	--color-my-green: #66715f;
+	--color-my-light-green: #2BB572;
+	--color-my-blue: #185BCC;
+	--color-my-vibrant-pink: #FF6EA0;
 	--color-my-pink: #c08a99;
 	--color-my-dark-pink: #e1cad0;
 	--color-my-light-pink: #ebdfdc;
@@ -153,6 +157,10 @@ body {
 	margin: 0 auto;
 }
 
+.content-font {
+	font-family: var(--content-font);
+}
+
 .headline-font {
 	font-family: var(--headline-font);
 }
@@ -162,6 +170,10 @@ body {
 	color: var(--color-my-pink);
 }
 
+.plus-jakarta-sans-font {
+	font-family: var(--plus-jakarta-sans);
+}
+
 h1,
 h2,
 h3,
@@ -169,7 +181,6 @@ h4,
 h5,
 h6 {
 	font-family: var(--headline-font);
-	font-weight: 500;
 }
 
 h1 {
