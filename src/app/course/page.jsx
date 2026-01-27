@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { CourseCard } from './components/CourseCard';
 
 export default function Course() {
-	const [option, setOption] = useState('services');
+	const [option, setOption] = useState('online');
 
 	return (
 		<div className="services px-[15px] md:px-[40px] py-[40px] md:py-[80px] xl:py-[120px]">
