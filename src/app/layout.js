@@ -33,10 +33,12 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<head>
+				<meta name="keywords" content="nail, shop" />
 				<link rel="stylesheet" href="/icons/icons.css" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			</head>
-			<body className={`${figtree.variable} ${playfair.variable} ${allison.variable} ${plus_jakarta_sans.variable} antialiased`}>
+			<body
+				className={`${figtree.variable} ${playfair.variable} ${allison.variable} ${plus_jakarta_sans.variable} antialiased`}
+			>
 				<LazyShow>
 					<Header />
 				</LazyShow>

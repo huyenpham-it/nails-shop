@@ -117,37 +117,37 @@ export const HOME_FOUR_IMAGES_TEN = [
 
 export const SERVICES = [
 	{
-		src: '/images/services/manicure.webp',
+		imagePath: '/images/services/manicure.webp',
 		name: 'Manicure',
 		description: 'Expert nail care that leaves your hands polished, neat, and beautiful.'
 	},
 	{
-		src: '/images/services/pedicure.webp',
+		imagePath: '/images/services/pedicure.webp',
 		name: 'Pedicure',
 		description: 'Relax and refresh with expert foot care and perfect polished toes.'
 	},
 	{
-		src: '/images/services/pedicure-services.webp',
+		imagePath: '/images/services/pedicure-services.webp',
 		name: 'Pedicure Services',
 		description: 'Treat your feet to soothing care and beautifully groomed, polished nails.'
 	},
 	{
-		src: '/images/services/waxing.webp',
+		imagePath: '/images/services/waxing.webp',
 		name: 'Waxing Services',
 		description: 'Smooth, flawless skin with gentle, professional waxing for every skin type.'
 	},
 	{
-		src: '/images/services/facials.webp',
+		imagePath: '/images/services/facials.webp',
 		name: 'Facials',
 		description: 'Rejuvenate your skin with deep-cleansing, hydrating, and glow-boosting facials.'
 	},
 	{
-		src: '/images/services/head-spa.webp',
+		imagePath: '/images/services/head-spa.webp',
 		name: 'Head Spa',
 		description: 'Relax and revitalize with a soothing head spa for ultimate stress relief.'
 	},
 	{
-		src: '/images/services/eyelash.webp',
+		imagePath: '/images/services/eyelash.webp',
 		name: 'Eyelash Extensions',
 		description: 'Blend of classic and volume lashes for a fuller, natural look.'
 	}
@@ -372,129 +372,129 @@ export const PRODUCTS_LIST = [
 		id: 1,
 		slug: 'nail-polish-239',
 		name: 'Nail Polish 239',
-		src: '/images/products/nail-239.png',
+		avatar: '/images/products/nail-239.png',
 		price: '$11.20',
-		description: 'A classic nail polish offering a professional-grade finish and intense color.'
+		fullDescription: 'A classic nail polish offering a professional-grade finish and intense color.'
 	},
 	{
 		id: 2,
 		slug: 'nail-polish-453',
 		name: 'Nail Polish 453',
-		src: '/images/products/nail-453.png',
+		avatar: '/images/products/nail-453.png',
 		price: '$13.62',
-		description: 'Richly pigmented and long-lasting this polish is perfect for an effortless manicure.'
+		fullDescription: 'Richly pigmented and long-lasting this polish is perfect for an effortless manicure.'
 	},
 	{
 		id: 3,
 		slug: 'nail-polish-972',
 		name: 'Nail Polish 972',
-		src: '/images/products/nail-972.png',
+		avatar: '/images/products/nail-972.png',
 		price: '$12.21',
-		description: 'A striking nail polish with a smooth texture and vibrant color for a flawless look.'
+		fullDescription: 'A striking nail polish with a smooth texture and vibrant color for a flawless look.'
 	},
 	{
 		id: 4,
 		slug: 'nail-polish-865',
 		name: 'Nail Polish 865',
-		src: '/images/products/nail-865.png',
+		avatar: '/images/products/nail-865.png',
 		price: '$16.21',
-		description: 'A classic nail polish offering a professional-grade finish and intense color.'
+		fullDescription: 'A classic nail polish offering a professional-grade finish and intense color.'
 	},
 	{
 		id: 5,
 		slug: 'nail-polish-114',
 		name: 'Nail Polish 114',
-		src: '/images/products/nail-114.png',
+		avatar: '/images/products/nail-114.png',
 		price: '$13.49',
-		description: 'A striking nail polish with a smooth texture and vibrant color for a flawless look.'
+		fullDescription: 'A striking nail polish with a smooth texture and vibrant color for a flawless look.'
 	},
 	{
 		id: 7,
 		slug: 'nail-polish-680',
 		name: 'Nail Polish 680',
-		src: '/images/products/nail-680.png',
+		avatar: '/images/products/nail-680.png',
 		price: '$12.49',
-		description:
+		fullDescription:
 			'A bold, high-quality nail polish offering vibrant color and a flawless finish. Perfect for any occasion.'
 	},
 	{
 		id: 6,
 		slug: 'nail-polish-883',
 		name: 'Nail Polish 883',
-		src: '/images/products/nail-883.png',
+		avatar: '/images/products/nail-883.png',
 		price: '$10.49',
-		description:
+		fullDescription:
 			'A bold, high-quality nail polish offering vibrant color and a flawless finish. Perfect for any occasion.'
 	},
 	{
 		id: 8,
 		slug: 'nail-polish-768',
 		name: 'Nail Polish 768',
-		src: '/images/products/nail-768.png',
+		avatar: '/images/products/nail-768.png',
 		price: '$15.99',
-		description:
+		fullDescription:
 			'A bold, high-quality nail polish offering vibrant color and a flawless finish. Perfect for any occasion.'
 	},
 	{
 		id: 9,
 		slug: 'nail-polish-165',
 		name: 'Nail Polish 165',
-		src: '/images/products/nail-165.png',
+		avatar: '/images/products/nail-165.png',
 		price: '$13.49',
-		description:
+		fullDescription:
 			'Glossy, chip-resistant nail polish available in vibrant, long-lasting shades. Quick-drying and perfect for a salon-quality finish at home.'
 	},
 	{
 		id: 10,
 		slug: 'nail-polish-456',
 		name: 'Nail Polish 456',
-		src: '/images/products/nail-456.png',
+		avatar: '/images/products/nail-456.png',
 		price: '$11.49',
-		description:
+		fullDescription:
 			'A bold, high-quality nail polish offering vibrant color and a flawless finish. Perfect for any occasion.'
 	},
 	{
 		id: 11,
 		slug: 'nail-polish-952',
 		name: 'Nail Polish 952',
-		src: '/images/products/nail-952.png',
+		avatar: '/images/products/nail-952.png',
 		price: '$12.99',
-		description:
+		fullDescription:
 			'A bold, high-quality nail polish offering vibrant color and a flawless finish. Perfect for any occasion.'
 	},
 	{
 		id: 12,
 		slug: 'nail-polish-114',
 		name: 'Nail Polish 114',
-		src: '/images/products/nail-114.png',
+		avatar: '/images/products/nail-114.png',
 		price: '$14.99',
-		description: 'Richly pigmented and long-lasting this polish is perfect for an effortless manicure.'
+		fullDescription: 'Richly pigmented and long-lasting this polish is perfect for an effortless manicure.'
 	},
 	{
 		id: 13,
 		slug: 'nail-polish-156',
 		name: 'Nail Polish 156',
-		src: '/images/products/nail-156.png',
+		avatar: '/images/products/nail-156.png',
 		price: '$10.99',
-		description:
+		fullDescription:
 			'Glossy, chip-resistant nail polish available in vibrant, long-lasting shades. Quick-drying and perfect for a salon-quality finish at home.'
 	},
 	{
 		id: 14,
 		slug: 'nail-polish-380',
 		name: 'Nail Polish 380',
-		src: '/images/products/nail-380.png',
+		avatar: '/images/products/nail-380.png',
 		price: '$14.99',
-		description:
+		fullDescription:
 			'Glossy, chip-resistant nail polish available in vibrant, long-lasting shades. Quick-drying and perfect for a salon-quality finish at home.'
 	},
 	{
 		id: 15,
 		slug: 'nail-polish-883',
 		name: 'Nail Polish 883',
-		src: '/images/products/nail-883.png',
+		avatar: '/images/products/nail-883.png',
 		price: '$14.99',
-		description:
+		fullDescription:
 			'A bold, high-quality nail polish offering vibrant color and a flawless finish. Perfect for any occasion.'
 	}
 ];
